@@ -1,0 +1,103 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+
+model Passager {
+ id_passager Int @id @default(autoincrement())
+ nom_passager String
+ prenom_passager String
+ email_passager String @unique
+ telephone_passager String @unique
+ reservations Reservation[]
+  accounts Accounts?
+}
+
+model Conducteur {
+ id_conducteur Int @id @default(autoincrement())
+ nom_conducteur String
+ prenom_conducteur String
+ email_conducteur String @unique
+ telephone_conducteur String @unique
+ trajets Trajet[]
+ id_accounts Int?
+ account Accounts? 
+ }
+
+model Trajet {
+ id_trajet Int @id @default(autoincrement())
+ type_vehicule String
+ nombre_de_place_libre Int
+ pt_A String
+ pt_B String
+ pt_C String
+ pt_D String
+ date_depart DateTime
+ 
+ id_conducteur Int?
+ conducteur Conducteur? @relation(fields: [id_conducteur], references: [id_conducteur])
+
+ emplacements EmplacementTrajet[]
+ reservations Reservation[]
+}
+
+model Reservation {
+ id_reservation Int @id @default(autoincrement())
+ date_heure DateTime
+
+ id_passager Int
+ passager Passager @relation(fields: [id_passager], references: [id_passager])
+ 
+ id_trajet Int
+ trajet Trajet @relation(fields: [id_trajet], references: [id_trajet])
+}
+
+model Emplacement {
+ id_emplacement Int @id @default(autoincrement())
+ nom_emplacement String
+ emplacements EmplacementTrajet[]
+ 
+}
+
+model EmplacementTrajet {
+ id_emplacement Int
+ emplacement Emplacement @relation(fields: [id_emplacement], references: [id_emplacement])
+  
+ id_trajet Int
+ trajet Trajet @relation(fields: [id_trajet], references: [id_trajet])
+  
+ @@id([id_emplacement, id_trajet])
+}
+
+
+
+model Accounts {
+ id_accounts Int @id @default(autoincrement())
+ username String @unique
+ type_accounts TYPEACCOUNT @default(PASSAGER)
+ email String @unique
+ password  String
+ id_passager Int? @unique
+ passager Passager? @relation(fields: [id_passager], references: [id_passager])
+ id_conducteur Int? @unique
+ conducteur Conducteur? @relation(fields: [id_conducteur], references: [id_conducteur])
+}
+
+
+enum TYPEACCOUNT {
+  ADMIN
+  PASSAGER
+  CONDUCTEUR
+}
+
