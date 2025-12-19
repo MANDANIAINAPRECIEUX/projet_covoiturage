@@ -37,38 +37,50 @@ const Signup = () => {
   };
 
   return (
-    <main className="w-full  h-screen grid grid-cols-1 sm:grid-cols-[600px,1fr]">
-      <div className="px-4 sm:px-8 flex justify-center items-center flex-col">
-        <h1 className="text-center font-bold text-2xl py-6 px-8">
-          Sign up pour créer un compte
-        </h1>
-        <form
-          onSubmit={signupUser}
-          className="w-full px-8 flex flex-col space-y-4"
-        >
-          <Input
-            type="text"
-            label="Username"
-            value={data.username}
-            onChange={(e) => setData({ ...data, username: e.target.value })}
-          />
-          <Input
-            type="text"
-            label="Email"
-            value={data.email}
-            onChange={(e) => setData({ ...data, email: e.target.value })}
-          />
-          <Input
-            type="password"
-            label="Password"
-            value={data.password}
-            onChange={(e) => setData({ ...data, password: e.target.value })}
-          />
-          <Button>Sign up</Button>
-        </form>
+    <main className="w-full h-screen relative overflow-hidden">
+      <div className="absolute inset-0 -z-10">
+        <img
+          src="../public/images/cov5.jpg"
+          alt="lolo2"
+          style={{
+            width: "100%",
+            height: "auto",
+            objectFit: "cover",
+            filter: "brightness(1) contrast(0.8) blur(4px)",
+          }}
+        />
       </div>
-      <div className="hidden sm:block">
-        <img src={logo} alt="" className="w-full h-full object-cover" />
+
+      <div className="relative z-10 px-4 sm:px-8 flex justify-center items-center flex-col h-full">
+        <div className="w-full sm:w-[90%] lg:w-[500px] p-8 bg-[#f0f4f8]/20 backdrop-blur-md rounded-2xl shadow-lg">
+          <h1 className="text-center font-bold text-2xl py-6 px-8 text-[#00B3BE]">
+            CREER VOTRE COMPTE
+          </h1>
+          <form
+            onSubmit={signupUser}
+            className="w-full px-8 flex flex-col space-y-4"
+          >
+            <Input
+              type="text"
+              label="Username"
+              value={data.username}
+              onChange={(e) => setData({ ...data, username: e.target.value })}
+            />
+            <Input
+              type="text"
+              label="Email"
+              value={data.email}
+              onChange={(e) => setData({ ...data, email: e.target.value })}
+            />
+            <Input
+              type="password"
+              label="Password"
+              value={data.password}
+              onChange={(e) => setData({ ...data, password: e.target.value })}
+            />
+            <Button>Sign up</Button>
+          </form>
+        </div>
       </div>
     </main>
   );

@@ -22,12 +22,18 @@ const Caroussel = () => {
 
   return (
     <form action="POST">
-      <div name="principale" className="bg-[#0099b3] bg-opacity-30 w-[500px] ">
+      <div
+        name="principale"
+        className=" bg-[#0099b3] bg-opacity-30
+    w-full
+    max-w-[500px]
+    mx-auto"
+      >
         <div className="bg-[#0099b3] bg-opacity-30 py-3 text-white text-center font-bold">
           {" "}
           VOTRE DISPONNIBILITE
         </div>
-        <div className="px-4 py-4   h-[150px] flex flex-col text-lg rounded-2xl">
+        <div className="px-4 py-4    min-h-[150px] flex flex-col text-lg rounded-2xl">
           <div className="flex items-center justify-between py-4 space-x-2">
             <Contenu icon={<FaCar />} label="type de voiture" />
             <input
@@ -76,7 +82,7 @@ const Caroussel = () => {
                     })
                   );
                 }}
-                className="rounded-lg text-center w-48 h-8"
+                className="rounded-lg text-center w-full sm:w-48 h-8"
                 type="date"
                 placeholder=""
               />

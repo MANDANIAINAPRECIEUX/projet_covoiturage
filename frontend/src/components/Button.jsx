@@ -11,7 +11,20 @@ const Button = ({ children, onClick, type }) => {
     <button
       type={type}
       onClick={func}
-      className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+      className="w-full 
+      px-4
+    bg-[#00B3BE] bg-opacity-100
+    text-white 
+    font-extrabold 
+    text-xl 
+    rounded-3xl 
+    shadow-[0_8px_15px_rgba(0,179,190,0.7)] 
+    transition-all 
+    duration-300 
+    transform 
+    hover:bg-[#00AFC3] hover:bg-opacity-100
+    hover:shadow-[0_10px_20px_rgba(0,179,190,0.9)] 
+    hover:-translate-y-1"
     >
       {children}
     </button>

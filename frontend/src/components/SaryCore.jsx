@@ -16,6 +16,9 @@ const SaryCore = () => {
     <AnimatePresence>
       <div
         style={{
+          width: "100%",
+          height: "100vh",
+          overflow: "hidden",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
@@ -81,7 +84,7 @@ const SaryCore = () => {
             <img
               src="../public/images/cov5.jpg"
               alt="lolo2"
-              style={{ width: "100%", height: "auto" }}
+              style={{ width: "100%", height: "auto", objectFit: "cover" }}
             />
           </motion.div>
         )}

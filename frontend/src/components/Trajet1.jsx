@@ -5,11 +5,11 @@ const Trajet1 = () => {
   const dispatch = useDispatch();
   const { pt_A, pt_B, pt_C, pt_D } = useSelector((state) => state.trajet);
   return (
-    <div className=" mt-[80px] w-[650px] relative rounded-lg">
+    <div className=" mt-[80px] min-w-[650px] relative rounded-lg">
       {/* image */}
       <img src="../public/images/rue111.png" alt="" className=" h-[700px]" />
       {/* depart */}
-      <div className="w-[250px] absolute top-[20px] left-[140px]">
+      <div className="w-[15.625rem] absolute top-[1.25rem] left-[12rem]">
         <label className="text-white text-center font-bold flex justify-center items-center bg-[#0099b3] bg-opacity-60 w-[250px] h-[30px] rounded-t-lg">
           DEPART
         </label>
@@ -23,7 +23,10 @@ const Trajet1 = () => {
         />
       </div>
       {/* 1 ere arret */}
-      <div className="w-[250px] absolute top-[200px] right-[-100px] ">
+      <div
+        className="w-[15.625rem] absolute top-[12.5rem] right-[-6.25rem]
+ "
+      >
         <label className="text-white text-center font-bold flex justify-center items-center bg-[#0099b3] bg-opacity-60 w-[250px] h-[30px] rounded-t-lg">
           1er point de passage
         </label>
@@ -37,7 +40,10 @@ const Trajet1 = () => {
         />
       </div>
       {/* 2eme arret */}
-      <div className="w-[250px] absolute bottom-[390px] left-[10px] ">
+      <div
+        className="w-[15.625rem] absolute top-[20.625rem] left-[-5.625rem]
+"
+      >
         <label className="text-white text-center font-bold flex justify-center items-center bg-[#0099b3] bg-opacity-60 w-[250px] h-[30px] rounded-t-lg">
           2eme point de passage
         </label>
@@ -51,7 +57,10 @@ const Trajet1 = () => {
         />
       </div>
       {/* arrivee */}
-      <div className="w-[250px] absolute bottom-[160px] right-[-180px]  ">
+      <div
+        className="w-[15.625rem] absolute bottom-[10rem] right-[-11.25rem]
+"
+      >
         <label className="text-white text-center font-bold flex justify-center items-center bg-[#0099b3] bg-opacity-60 w-[250px] h-[30px] rounded-t-lg">
           ARRIVEE
         </label>
