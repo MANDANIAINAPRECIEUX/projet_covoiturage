@@ -54,7 +54,7 @@ const Signup = () => {
       <div className="relative z-10 px-4 sm:px-8 flex justify-center items-center flex-col h-full">
         <div className="w-full sm:w-[90%] lg:w-[500px] p-8 bg-[#f0f4f8]/20 backdrop-blur-md rounded-2xl shadow-lg">
           <h1 className="text-center font-bold text-2xl py-6 px-8 text-[#00B3BE]">
-            CREER VOTRE COMPTE
+            CREER VOTRE COMPTE ☺
           </h1>
           <form
             onSubmit={signupUser}
