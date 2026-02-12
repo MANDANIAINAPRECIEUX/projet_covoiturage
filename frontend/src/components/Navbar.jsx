@@ -48,23 +48,7 @@ const Navbar = () => {
         </Link>
       </div>
 
-      {/* <div className="w-2/12 px-4 bg-white flex py-8 ">
-        <div className="px-4 ">
-          <a href="">
-            <MdMail />
-          </a>
-        </div>
-        <div className="px-4">
-          <a href="">
-            <BsFacebook />
-          </a>
-        </div>
-        <div className="px-4">
-          <a href="">
-            <FaWhatsapp />
-          </a>
-        </div>
-      </div> */}
+    
     </div>
   );
 };
