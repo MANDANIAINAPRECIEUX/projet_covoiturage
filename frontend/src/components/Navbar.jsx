@@ -43,7 +43,7 @@ const Navbar = () => {
           <div className="text-base lg:text-lg font-semibold">SE CONNECTER</div>
         </Link>
 
-        <Link to="/signup"> dfgdgdfs gsdgsdg
+        <Link to="/signup"> dfgdgdfs
           <div className="text-base lg:text-lg font-semibold">S'INSCRIRE</div>
         </Link>
       </div>
