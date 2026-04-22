@@ -44,7 +44,7 @@ const Navbar = () => {
         </Link>
 
         <Link to="/signup">
-          <div className="text-base lg:text-lg font-semibold">S'INSCRIRE</div>gergereg
+          <div className="text-base lg:text-lg font-semibold">S'INSCRIRE</div>
         </Link>
       </div>
 
