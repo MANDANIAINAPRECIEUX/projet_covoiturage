@@ -7,7 +7,7 @@ const Navlink = ({ icon: Icon, title, href }) => {
       <div className="flex items-center space-x-3 text-lg">
         <Icon className="text-3xl md:text-lg" />
         <p className="hidden md:block">{title}</p>
-      </div>sdgdgdg dfgdsfgdfg dfgsdfgdf gdfgsdfg dfgsdgfsdfg
+      </div>sdgdgdg dfgdsfgdfg dfgsdfgdf gdfgsdfg
     </Link>
   );
 };
