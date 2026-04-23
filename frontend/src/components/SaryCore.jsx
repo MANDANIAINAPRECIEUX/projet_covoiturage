@@ -78,7 +78,7 @@ const SaryCore = () => {
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
-              alignItems: "center",xcvxcdvd ergergr egergeg ergerrg ergtet
+              alignItems: "center",xcvxcdvd ergergr egergeg ergerrg
             }}
           >
             <img
