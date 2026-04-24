@@ -16,7 +16,7 @@ const Sidebar = () => {
           <Navlink
             path={item.path}
             active={item.active}
-            title={item.title}dfgdgdfg
+            title={item.title}
             icon={item.icon}
           />
         ))}
