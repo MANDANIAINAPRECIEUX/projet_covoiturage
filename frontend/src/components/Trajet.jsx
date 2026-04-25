@@ -9,7 +9,7 @@ const Trajet = () => {
           {/* sary lalana */}
           <div>
             <img
-              src="../public/images/trajet3.png" sdfsdfsd dsfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf
+              src="../public/images/trajet3.png" sdfsdfsd dsfsdfsdf
               className=" pt-20"
               alt=""
               style={{ height: "900px" }}
