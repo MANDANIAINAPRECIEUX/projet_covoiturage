@@ -16,7 +16,7 @@ const Trajet = () => {
             />
           </div>
           {/* photo depart */}
-          <div style={{ position: "relative", top: "-900px", left: "65px" }}>fsfsdf sdfsdfsdf sdfsdfsdf sdfsdfsd sdfsdfsf  sdfsdfs sdfsdfs ssdfsdf sdfsdfsdf sdfsdfsdf sdfsdf
+          <div style={{ position: "relative", top: "-900px", left: "65px" }}>fsfsdf sdfsdfsdf sdfsdfsdf sdfsdfsd sdfsdfsf  sdfsdfs sdfsdfs ssdfsdf sdfsdfsdf sdfsdfsdf
             <input
               type="text"
               className="bg-gray-200 h-8 rounded-md border-blue-500 text-center"
