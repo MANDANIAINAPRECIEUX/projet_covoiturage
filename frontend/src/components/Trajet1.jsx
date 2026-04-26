@@ -24,7 +24,7 @@ const Trajet1 = () => {
       </div>
       {/* 1 ere arret */}
       <div
-        className="w-[15.625rem] absolute top-[12.5rem] right-[-6.25rem]qsddqd qdqsdqs
+        className="w-[15.625rem] absolute top-[12.5rem] right-[-6.25rem]qsddqd
  "
       >
         <label className="text-white text-center font-bold flex justify-center items-center bg-[#0099b3] bg-opacity-60 w-[250px] h-[30px] rounded-t-lg">
