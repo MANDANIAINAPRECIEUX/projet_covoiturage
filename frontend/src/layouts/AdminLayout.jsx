@@ -1,7 +1,7 @@
 import React from "react";
 
 const AdminLayout = () => {
-  return <div>AdminLayout sdqsdqsd qsdqsdqsd qsdqsdqsd qsqsdqsd qsdqsdqsd qsdqsdqsd qsdqsdqs qsdqsdqs qsdqsdqq</div>;
+  return <div>AdminLayout sdqsdqsd qsdqsdqsd qsdqsdqsd qsqsdqsd qsdqsdqsd qsdqsdqsd qsdqsdqs qsdqsdqs</div>;
 };
 
 export default AdminLayout;
