@@ -10,7 +10,7 @@ const AdminLayouts = () => {
       <div className="content  grid  grid-rows-[60px,1fr] md:col-[2]">
         <Navbar />
 
-        <div className="row-[2] dark:bg-slate-950 dark:text-white"> qsdsf fffff qsdfqs sdfsff
+        <div className="row-[2] dark:bg-slate-950 dark:text-white"> qsdsf fffff qsdfqs
           <Outlet />
         </div>
       </div>
