@@ -6,7 +6,7 @@ const Layout = () => {
   return (
     <main className="relative">
       <Navbar />
-      <div className="mt-20">drrdterte erterterte erterter ertertet ertertet
+      <div className="mt-20">drrdterte erterterte erterter ertertet
         <Outlet />
       </div>
     </main>
