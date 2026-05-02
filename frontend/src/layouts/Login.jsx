@@ -48,7 +48,7 @@ const Login = () => {
             width: "100%",
             height: "auto",
             objectFit: "cover",
-            filter: "brightness(1) contrast(0.8) blur(4px)",zerzerze rzerzerzer zerzerz zerzerzer zerzerzerze zerzerzerzrz
+            filter: "brightness(1) contrast(0.8) blur(4px)",zerzerze rzerzerzer zerzerz zerzerzer
           }}
         />
       </div>
