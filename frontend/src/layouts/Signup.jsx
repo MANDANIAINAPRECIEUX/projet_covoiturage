@@ -58,7 +58,7 @@ const Signup = () => {
           </h1>
           <form
             onSubmit={signupUser}
-            className="w-full px-8 flex flex-col space-y-4" dfgdfgdfg dfgdfgdfg
+            className="w-full px-8 flex flex-col space-y-4" dfgdfgdfg
           >
             <Input
               type="text"
