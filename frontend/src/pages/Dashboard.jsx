@@ -5,7 +5,7 @@ export default function Dashboard() {
   const { user } = useContext(UserContext);
   return (
     <div>
-      <h1>Dashboard dfd df df fddddf dfdfdf</h1>
+      <h1>Dashboard dfd df df fddddf</h1>
       <>{!!user && <h2>Hi {user.name} !</h2>}</>
     </div>
   );
