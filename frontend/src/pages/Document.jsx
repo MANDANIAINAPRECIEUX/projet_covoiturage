@@ -2,7 +2,7 @@ import React from 'react'
 
 const Document = () => {
   return (
-    <div><div>rrerer errerger</div>Document</div>
+    <div><div>rrerer</div>Document</div>
   )
 }
 
