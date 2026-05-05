@@ -2,7 +2,7 @@ import React from 'react'
 
 const Document = () => {
   return (
-    <div>Document</div>
+    <div>Document dgdgdg dfgdfgdfg dfgdfgdfg dfgdfgdfgd dfgdfgdfgdf dfgdfgdfgdfgdf</div>
   )
 }
 
