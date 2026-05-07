@@ -22,7 +22,7 @@ const App = () => {
           scrolling ? "translate-x-full" : "translate-x-0"
         }`}
       >
-        <div className="box w-[50px] h-[100px] bg-gray-200">hfghff huhuih </div>
+        <div className="box w-[50px] h-[100px] bg-gray-200">hfghff</div>
         <div className="box w-[50px] h-[100px] bg-gray-300"></div>
       </div>
     </div>
