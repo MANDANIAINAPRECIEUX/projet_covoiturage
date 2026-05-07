@@ -265,7 +265,7 @@ const Proposer = () => {
       hover:-translate-y-1
     "
         >
-          AJOUTER VOTRE PROPOSITION un truc un p
+          AJOUTER VOTRE PROPOSITION un truc un
         </button>
       </div>
     </div>
