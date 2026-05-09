@@ -32,7 +32,7 @@ const Rechercher = () => {
             </div>
             <div className="flex justify-between py-4 px-4 space-x-2">
               <label className="text-white" htmlFor="">
-                date de depart : dfgdfgdfg dfgdfgdfg dfgdfgdfg dfgdfgdfg
+                date de depart : dfgdfgdfg dfgdfgdfg dfgdfgdfg
               </label>
               <input type="date" className="rounded-lg px-2 text-sky-600" />
             </div>
