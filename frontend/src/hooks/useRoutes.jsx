@@ -21,7 +21,7 @@ export const useRoutes = () => {
     },
     {
       title: "Documents",
-      icon: GoDownload,DDFGDFGDF DFGDGFDSFG
+      icon: GoDownload,DDFGDFGDF
       path: "/documents",
       active: location === "/documents",
     },
