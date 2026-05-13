@@ -11,7 +11,7 @@ const AdminLayouts = () => {
         <Navbar />
 
         <div className="row-[2] dark:bg-slate-950 dark:text-white">
-          <Outlet /> sfsfsdf sfsfsdfs sdfsdfsdf sdfsdfs
+          <Outlet /> sfsfsdf sfsfsdfs sdfsdfsdf
         </div>
       </div>
     </main>
