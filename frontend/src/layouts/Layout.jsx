@@ -7,7 +7,7 @@ const Layout = () => {
     <main className="relative">
       <Navbar />
       <div className="mt-20">
-        <Outlet /> HYHGHGY UUIGUGUIG
+        <Outlet /> HYHGHGY
       </div>
     </main>
   );
