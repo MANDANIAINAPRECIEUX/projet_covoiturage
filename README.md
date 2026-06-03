@@ -1,4 +1,4 @@
-# ihm rery iany ve?
+# ihm 
 
 # UserModel = nom du Modèle intéragissant avec Maria DB
 
