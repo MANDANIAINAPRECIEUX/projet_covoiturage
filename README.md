@@ -26,4 +26,13 @@ npm i bcrypt
 # Génération de JWT
 npm install jsonwebtoken
 
+## 📂 Structure des responsabilités
+
+### Frontend (IHM)
+- Interface utilisateur
+- Gestion des routes (`react-router-dom`)
+- Requêtes HTTP (`axios`)
+- Gestion de l'état global (`react-redux`)
+- Notifications (`react-hot-toast`)
+
 
