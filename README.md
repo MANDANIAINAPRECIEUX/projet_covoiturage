@@ -18,3 +18,10 @@ npm i react-redux
 npm i jsonwebtoken cookie-parser
 npm i bcrypt
 # projet_covoiturage
+
+
+### Authentification et sécurité
+
+```bash
+# Génération de JWT
+npm install jsonwebtoken
