@@ -58,7 +58,7 @@ npm install bcrypt
 
 ---
 
-## 🔐 Flux d'inscription (Signup)
+ Flux d'inscription (Signup)
 
 1. L'utilisateur remplit le formulaire d'inscription.
 2. La fonction `registerUser()` est appelée.
