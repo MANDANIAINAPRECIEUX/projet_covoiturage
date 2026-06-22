@@ -9,7 +9,7 @@ PROJET COVOITURAGE
 
 ---
 
-## 📦 Installation des dépendances
+ Installation des dépendances
 
 ### Frontend
 
