@@ -1,4 +1,4 @@
- Projet Covoiturage
+PROJET COVOITURAGE
 
 ## 📌 Conventions de nommage
 
