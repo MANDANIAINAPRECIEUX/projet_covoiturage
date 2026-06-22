@@ -1,4 +1,4 @@
-# 🚗 Projet Covoiturage
+ Projet Covoiturage
 
 ## 📌 Conventions de nommage
 
