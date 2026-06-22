@@ -40,7 +40,7 @@ npm install bcrypt
 
 ---
 
-## 📂 Structure des responsabilités
+ Structure des responsabilités
 
 ### Frontend (IHM)
 - Interface utilisateur
