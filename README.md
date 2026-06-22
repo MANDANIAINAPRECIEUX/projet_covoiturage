@@ -1,6 +1,6 @@
 PROJET COVOITURAGE
 
-## 📌 Conventions de nommage
+ Conventions de nommage
 
 - **IHM** : Interface Homme-Machine (Frontend)
 - **UserModel** : Modèle utilisateur interagissant avec MariaDB
