@@ -7,8 +7,6 @@ PROJET COVOITURAGE
 - **Signup** : Inscription
 - **signup()** : Fonction `registerUser()`
 
----
-
  Installation des dépendances
 
 ### Frontend
