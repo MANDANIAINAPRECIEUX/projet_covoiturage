@@ -36,7 +36,7 @@ npm install cookie-parser
 
 # Hachage des mots de passe
 npm install bcrypt
-```
+
 
 ---
 
