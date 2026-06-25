@@ -5,7 +5,7 @@ PROJET COVOITURAGE
 - **IHM** : Interface Homme-Machine (Frontend)
 - **UserModel** : Modèle utilisateur interagissant avec MariaDB
 - **Signup** : Inscription
-- **signup()** : Fonction `registerUser()`
+- **signup()** : Fonction "registerUser()"
 
  Installation des dépendances
 
