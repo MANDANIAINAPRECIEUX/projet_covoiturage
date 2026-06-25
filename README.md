@@ -51,8 +51,6 @@ npm install bcrypt
 - Gestion des cookies
 - Hachage sécurisé des mots de passe avec bcrypt
 
----
-
  Flux d'inscription 
 
 1. L'utilisateur remplit le formulaire d'inscription.
