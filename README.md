@@ -9,7 +9,7 @@ PROJET COVOITURAGE
 
  Installation des dépendances
 
-### Frontend
+Frontend
 
 ```bash
 npm install react-hot-toast
