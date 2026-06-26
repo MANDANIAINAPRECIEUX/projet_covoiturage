@@ -17,7 +17,7 @@ npm install react-router-dom axios
 npm install react-redux
 ```
 
-### Backend
+ Backend
 
 ```bash
 npm install express nodemon dotenv cors
