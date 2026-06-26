@@ -44,7 +44,7 @@ npm install bcrypt
 - Gestion de l'état global (`react-redux`)
 - Notifications (`react-hot-toast`)
 
-### Backend
+Backend
 - API REST avec Express
 - Connexion à MariaDB
 - Authentification JWT
