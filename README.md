@@ -37,7 +37,7 @@ npm install bcrypt
 
  Structure des responsabilités
 
-### Frontend (IHM)
+ Frontend (IHM)
 - Interface utilisateur
 - Gestion des routes (`react-router-dom`)
 - Requêtes HTTP (`axios`)
