@@ -18,7 +18,6 @@ npm install react-redux
 ```
 
  Backend
-
 ```bash
 npm install express nodemon dotenv cors
 
