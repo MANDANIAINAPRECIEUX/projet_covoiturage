@@ -11,7 +11,6 @@ PROJET COVOITURAGE
 
 Frontend
 
-```bash
 npm install react-hot-toast
 npm install react-router-dom axios
 npm install react-redux
