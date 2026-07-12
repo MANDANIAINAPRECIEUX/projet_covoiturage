@@ -21,9 +21,7 @@ npm install react-redux
 npm install express nodemon dotenv cors
 
 
- Authentification et sécurité
-
-```bash
+ Authentification et sécurité```bash
 # Génération de JWT
 npm install jsonwebtoken
 
